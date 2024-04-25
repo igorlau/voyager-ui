@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "outDir": ""
+  },
+  "files": [
+    "node_modules/@nx/react/typings/styled-jsx.d.ts",
+    "node_modules/@nx/react/typings/cssmodule.d.ts",
+    "node_modules/@nx/react/typings/image.d.ts"
+  ],
+  "exclude": [
+    "packages/**/*.spec.ts",
+    "packages/**/*.test.ts",
+    "packages/**/*.spec.js",
+    "packages/**/*.test.js",
+    "packages/**/*.spec.tsx",
+    "packages/**/*.test.tsx",
+    "packages/**/*.spec.jsx",
+    "packages/**/*.test.js"
+  ],
+  "include": [
+    "packages/**/*.stories.ts",
+    "packages/**/*.stories.js",
+    "packages/**/*.stories.jsx",
+    "packages/**/*.stories.tsx",
+    "packages/**/*.stories.mdx",
+    ".storybook/*.js",
+    ".storybook/*.ts"
+  ]
+}

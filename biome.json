@@ -1,0 +1,48 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80,
+    "attributePosition": "auto"
+  },
+  "organizeImports": { "enabled": false },
+  "linter": {
+    "enabled": true,
+    "rules": { "recommended": true }
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingComma": "all",
+      "semicolons": "always",
+      "arrowParentheses": "always",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto"
+    }
+  },
+  "files": {
+    "include": [
+      "./packages/**/*.{js,jsx,ts,tsx,json,md,html,css,scss,less,graphql,mdx}",
+      ".storybook/**/*.{js,jsx,ts,tsx,json,md,html,css,scss,less,graphql,mdx}",
+      ".vscode/**/*.{js,ts,json}"
+    ],
+    "ignore": [
+      ".expo",
+      ".nx/**/*",
+      ".next",
+      ".tamagui",
+      ".yarn/*",
+      "/coverage",
+      "dist",
+      "node_modules"
+    ],
+    "ignoreUnknown": true
+  }
+}

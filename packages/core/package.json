@@ -1,0 +1,33 @@
+{
+  "name": "@voyager-ui/core",
+  "version": "0.0.1",
+  "private": false,
+  "description": "",
+  "author": "Igor Lau <igorassislau@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

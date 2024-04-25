@@ -1,0 +1,20 @@
+{
+  "name": "@voyager-ui/tailwind",
+  "private": false,
+  "version": "0.0.1",
+  "description": "",
+  "author": "Igor Lau <igorassislau@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
