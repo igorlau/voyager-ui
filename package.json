@@ -6,7 +6,10 @@
   "license": "MIT",
   "keywords": [],
   "scripts": {
-    "sb:run": "pnpm exec nx run voyager-ui:storybook -p 6006"
+    "build": "rm -rf dist && pnpm exec nx run tailwind:build && pnpm exec nx run core:build",
+    "sb:run": "pnpm exec nx run voyager-ui:storybook -p 6006",
+    "tailwind:publish": "pnpm exec nx run tailwind:nx-release-publish",
+    "core:publish": "cd packages/core && pnpm publish"
   },
   "private": true,
   "devDependencies": {
@@ -65,8 +68,5 @@
   "nx": {
     "includedScripts": []
   },
-  "dependencies": {
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1"
-  }
+  "dependencies": {}
 }

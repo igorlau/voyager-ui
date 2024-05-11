@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "nrwl.angular-console",
-    "biomejs.biome",
     "vivaxy.vscode-conventional-commits",
     "bradlc.vscode-tailwindcss",
     "esbenp.prettier-vscode"
