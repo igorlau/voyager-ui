@@ -1,4 +1,4 @@
-# VoyagerUi
+# @voyager-ui
 
 This repository was built as a POC to handle a package-based monorepo with pnpm workspaces and storybook for components preview.
 
